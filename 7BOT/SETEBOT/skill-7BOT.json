@@ -1,0 +1,1393 @@
+{
+  "name": "7BOT",
+  "intents": [
+    {
+      "intent": "Funções_estrutura_repetição",
+      "examples": [
+        {
+          "text": "Qual função das estruturas de repetição?"
+        },
+        {
+          "text": "Quais as funções das estruturas de repetição?"
+        },
+        {
+          "text": "Funções estruturas de repetição"
+        },
+        {
+          "text": "Me de uma função de estrutura de repetição"
+        },
+        {
+          "text": "Me de funções de estrutura de repetição"
+        },
+        {
+          "text": "Estruturas de repetição função?"
+        },
+        {
+          "text": "Função estruturas repetição"
+        },
+        {
+          "text": "Quais são as funções de estrutura de repetição"
+        },
+        {
+          "text": "Estruturas de repetição quais são as funções?"
+        },
+        {
+          "text": "Funções das estruturas de repetição, quais são?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Tudo Bem?"
+        },
+        {
+          "text": "E ai?"
+        },
+        {
+          "text": "Como vai?"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Alo"
+        },
+        {
+          "text": "Saudações"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "offtopics",
+      "examples": [
+        {
+          "text": "qual nome"
+        },
+        {
+          "text": "seu nome é?"
+        },
+        {
+          "text": "qual seu nome"
+        },
+        {
+          "text": "qual é o seu nome"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "offtopicsidade",
+      "examples": [
+        {
+          "text": "qual sua idade"
+        },
+        {
+          "text": "quantos anos vc tem"
+        },
+        {
+          "text": "quantos anos voce tem"
+        },
+        {
+          "text": "qual sua idae"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "o_que_e_caso",
+      "examples": [
+        {
+          "text": "para que serve o caso ?"
+        },
+        {
+          "text": "que é caso"
+        },
+        {
+          "text": "caso o que é ?"
+        },
+        {
+          "text": "switch o que é"
+        },
+        {
+          "text": "Para que serve o switch case"
+        },
+        {
+          "text": "o que é caso ?"
+        },
+        {
+          "text": "o que é switch case"
+        },
+        {
+          "text": "aonde usar caso"
+        },
+        {
+          "text": "como usar caso"
+        },
+        {
+          "text": "caso serve pra que"
+        },
+        {
+          "text": "caso pra que serve"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cumprimento",
+      "examples": [
+        {
+          "text": "tudo bom"
+        },
+        {
+          "text": "como vc esta"
+        },
+        {
+          "text": "como voce esta"
+        },
+        {
+          "text": "vc esta bem"
+        },
+        {
+          "text": "voce esta bem"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "que_horas_sao",
+      "examples": [
+        {
+          "text": "horas"
+        },
+        {
+          "text": "que horas"
+        },
+        {
+          "text": "me fale as horas"
+        },
+        {
+          "text": "porfavor, as horas"
+        },
+        {
+          "text": "me informe as horas"
+        },
+        {
+          "text": "que horas sao"
+        },
+        {
+          "text": "Que horas são?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oquevcgostadefazer",
+      "examples": [
+        {
+          "text": "gosta do que"
+        },
+        {
+          "text": "o que voce gosta de fazer"
+        },
+        {
+          "text": "o que vc faze no tempo livre"
+        },
+        {
+          "text": "gosta de fazer oque"
+        },
+        {
+          "text": "gosta do quew"
+        },
+        {
+          "text": "gosta do q"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Sintaxe_case",
+      "examples": [
+        {
+          "text": "Qual é a sintaxe do Switch case?"
+        },
+        {
+          "text": "sintaxe do Switch case"
+        },
+        {
+          "text": "sintaxe do case"
+        },
+        {
+          "text": "Como é a sintaxe do caso?"
+        },
+        {
+          "text": "Como é a sintaxe do case?"
+        },
+        {
+          "text": "Como é a sintaxe do Switch case?"
+        },
+        {
+          "text": "Como funciona a sintaxe case?"
+        },
+        {
+          "text": "Como funciona a sintaxe caso?"
+        },
+        {
+          "text": "Como funciona a sintaxe do Switch case?"
+        },
+        {
+          "text": "Qual é a sintaxe do caso ?"
+        },
+        {
+          "text": "Qual é a sintaxe do case ?"
+        }
+      ],
+      "description": "O sintaxe caso"
+    },
+    {
+      "intent": "exemplos_se",
+      "examples": [
+        {
+          "text": "me mostre um exemplo de if else"
+        },
+        {
+          "text": "Me de um exemplo de if"
+        },
+        {
+          "text": "me de um exemplo de If else"
+        },
+        {
+          "text": "exemplo de if"
+        },
+        {
+          "text": "exemplo de if else"
+        },
+        {
+          "text": "me de exemplo de se"
+        },
+        {
+          "text": "me de exemplo de se e senao"
+        },
+        {
+          "text": "exemplos if"
+        },
+        {
+          "text": "exemplos if else"
+        },
+        {
+          "text": "if exemplo"
+        },
+        {
+          "text": "por favor me fale um exemplo de if"
+        },
+        {
+          "text": "f else exemplos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "curintia",
+      "examples": [
+        {
+          "text": "e o Corinthias"
+        },
+        {
+          "text": "e o curintia"
+        },
+        {
+          "text": "e o sao paulo"
+        },
+        {
+          "text": "e o São Paulo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "estrutura_enquanto",
+      "examples": [
+        {
+          "text": "Estruturas enquanto, são o que?"
+        },
+        {
+          "text": "Que é estrutura enquanto?"
+        },
+        {
+          "text": "Defina estrutura enquanto"
+        },
+        {
+          "text": "Sobre estrutura enquanto"
+        },
+        {
+          "text": "Definição da estrutura enquanto"
+        },
+        {
+          "text": "Estrutura enquanto"
+        },
+        {
+          "text": "Descreva estrutura enquanto"
+        },
+        {
+          "text": "O que é estrutura enquanto?"
+        },
+        {
+          "text": "O que são estruturas enquanto?"
+        },
+        {
+          "text": "Estrutura enquanto, é o que?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quando_usar_senao_e_entao",
+      "examples": [
+        {
+          "text": "Onde usar ENTAO?"
+        },
+        {
+          "text": "Porque usar ENTAO?"
+        },
+        {
+          "text": "Defina quando usar SE"
+        },
+        {
+          "text": "Defina quando usar ENTAO"
+        },
+        {
+          "text": "Descreva quando usar SE"
+        },
+        {
+          "text": "Descreva quando usar ENTAO"
+        },
+        {
+          "text": "Quando eu uso SE?"
+        },
+        {
+          "text": "Quando eu uso ENTAO?"
+        },
+        {
+          "text": "Onde usar SE?"
+        },
+        {
+          "text": "Porque usar SE?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Agradecimento",
+      "examples": [
+        {
+          "text": "Estou grato"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "Agradecido"
+        },
+        {
+          "text": "Agradecida"
+        },
+        {
+          "text": "Muito obrigado"
+        },
+        {
+          "text": "Muito obrigada"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Muito grato"
+        },
+        {
+          "text": "Muito agradecido"
+        },
+        {
+          "text": "Agradeço"
+        },
+        {
+          "text": "Obg"
+        },
+        {
+          "text": "Vlw"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "piada",
+      "examples": [
+        {
+          "text": "me conte uma piada"
+        },
+        {
+          "text": "conta uma piada"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "O_que_e_se_senao",
+      "examples": [
+        {
+          "text": "O que é o senão ?"
+        },
+        {
+          "text": "Para que serve o se ?"
+        },
+        {
+          "text": "Para que serve o if ?"
+        },
+        {
+          "text": "O que é if ?"
+        },
+        {
+          "text": "O que é se ?"
+        },
+        {
+          "text": "O que é o else ?"
+        },
+        {
+          "text": "if o que é"
+        },
+        {
+          "text": "Pra que if"
+        },
+        {
+          "text": "if como funciona ?"
+        },
+        {
+          "text": "else o que é"
+        },
+        {
+          "text": "Pra que else"
+        },
+        {
+          "text": "o que é if else"
+        }
+      ],
+      "description": "O que é if else"
+    },
+    {
+      "intent": "Despedidas",
+      "examples": [
+        {
+          "text": "Até outra vez"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Até logo"
+        },
+        {
+          "text": "Tenha um bom dia"
+        },
+        {
+          "text": "Adeus"
+        },
+        {
+          "text": "Até já"
+        },
+        {
+          "text": "Até depois"
+        },
+        {
+          "text": "Estou indo"
+        },
+        {
+          "text": "Vou embora"
+        },
+        {
+          "text": "Flw"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "repeticoes_infinitas",
+      "examples": [
+        {
+          "text": "Descreva a repetição infinita"
+        },
+        {
+          "text": "Como usar repetição infinita?"
+        },
+        {
+          "text": "Repetição infinita é?"
+        },
+        {
+          "text": "Repetições infinitas são?"
+        },
+        {
+          "text": "Utilização repetição infinita?"
+        },
+        {
+          "text": "Repetição infinita significado?"
+        },
+        {
+          "text": "Repetição infinita função?"
+        },
+        {
+          "text": "Defina repetição infinita"
+        },
+        {
+          "text": "O que são Repetições infinitas?"
+        },
+        {
+          "text": "O que é repetição infinita?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quemévc",
+      "examples": [
+        {
+          "text": "como vai ana?"
+        },
+        {
+          "text": "ana o que voce é?"
+        },
+        {
+          "text": "Ana, se apresente pro pessoal"
+        },
+        {
+          "text": "se apresente"
+        },
+        {
+          "text": "ana quem é voce?"
+        },
+        {
+          "text": "quem é vc"
+        },
+        {
+          "text": "quem é voce?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "que_dia_hoje",
+      "examples": [
+        {
+          "text": "dia"
+        },
+        {
+          "text": "Que dia é hoje?"
+        },
+        {
+          "text": "me diga o dia"
+        },
+        {
+          "text": "me diga que dia é hoje"
+        },
+        {
+          "text": "o dia"
+        },
+        {
+          "text": "que dia e hoje?"
+        },
+        {
+          "text": "me informe o dia"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jovi",
+      "examples": [
+        {
+          "text": "Jovirone?"
+        },
+        {
+          "text": "voce joga lol?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "estrutura_faça",
+      "examples": [
+        {
+          "text": "Estrutura faça"
+        },
+        {
+          "text": "Descreva estrutura faça"
+        },
+        {
+          "text": "Definição da estrutura faça"
+        },
+        {
+          "text": "Sobre estrutura faça"
+        },
+        {
+          "text": "O que são estruturas faça?"
+        },
+        {
+          "text": "O que é estrutura faça?"
+        },
+        {
+          "text": "Estrutura faça, é o que?"
+        },
+        {
+          "text": "Estruturas faça, são o que?"
+        },
+        {
+          "text": "Que é estrutura faça?"
+        },
+        {
+          "text": "Defina estrutura faça"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "conceituais_basicos",
+      "examples": [
+        {
+          "text": "Conceituais básicos, são o que?"
+        },
+        {
+          "text": "Conceituais básicos, é o que?"
+        },
+        {
+          "text": "O que são conceituais básicos?"
+        },
+        {
+          "text": "O que é conceituais básicos?"
+        },
+        {
+          "text": "Conceituais básicos"
+        },
+        {
+          "text": "Descreva conceituais básicos"
+        },
+        {
+          "text": "Sobre conceituais básicos"
+        },
+        {
+          "text": "Definição de conceituais básicos"
+        },
+        {
+          "text": "Defina conceituais básicos"
+        },
+        {
+          "text": "Que é conceituais básicos?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "clima",
+      "examples": [
+        {
+          "text": "quantos graus esta fazendo hoje?"
+        },
+        {
+          "text": "qual é a temperatura hoje"
+        },
+        {
+          "text": "como esta o clima hoje"
+        },
+        {
+          "text": "como esta o clima"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "amor",
+      "examples": [
+        {
+          "text": "vc me ama"
+        },
+        {
+          "text": "ana voce me ama"
+        },
+        {
+          "text": "voce me ama"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "estrutura_repita",
+      "examples": [
+        {
+          "text": "Estruturas repita, são o que?"
+        },
+        {
+          "text": "Estrutura repita, é o que?"
+        },
+        {
+          "text": "O que são estruturas repita?"
+        },
+        {
+          "text": "O que é estrutura repita?"
+        },
+        {
+          "text": "Descreva estrutura repita"
+        },
+        {
+          "text": "Estrutura repita"
+        },
+        {
+          "text": "Sobre estrutura repita"
+        },
+        {
+          "text": "Definição da estrutura repita"
+        },
+        {
+          "text": "Defina estrutura repita"
+        },
+        {
+          "text": "Que é estrutura repita?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "case",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "o_que_e_if",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "if",
+          "synonyms": [
+            "if é estrutura"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Saudacao_Formal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "3106197f-7ce2-4e7b-b8dc-d2a13ef014be",
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "#que_horas_sao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@sys-time"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#que_horas_sao",
+      "dialog_node": "node_3_1570453675472",
+      "previous_sibling": "node_6_1570454159178"
+    },
+    {
+      "type": "standard",
+      "title": "Exemplos if/else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui está um exemplo de if/else\n\nif (expressão booleana)\n{\n// código 1\n}\nelse\n{\n// código 2\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#exemplos_se",
+      "dialog_node": "node_2_1558959585131",
+      "previous_sibling": "node_1_1558959102383"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi pessoal, meu nome é Ana, Fui criada para ajudar e tirar dúvidas dos alunos da sevem bot. , então se você tiver alguma dúvida é só perguntar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#quemévc",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1570453214633",
+      "previous_sibling": "node_5_1570107501135"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale Dele Dele Doli"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "dialog_node": "node_10_1570455464855",
+      "previous_sibling": "node_10_1570456243877"
+    },
+    {
+      "type": "standard",
+      "title": "offtopics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Meu nome é ana, em que posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#offtopics",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1570107501135",
+      "previous_sibling": "node_2_1570195779787"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#conceituais_basicos",
+      "dialog_node": "node_1_1558961214099",
+      "previous_sibling": "node_4_1558960881413"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu tenho apenas alguns meses de vida, sou apenas um bêbê"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#offtopicsidade",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1570107845171",
+      "previous_sibling": "node_2_1570450055748"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No meu tempo livre gosto de assistir series e filmes, gósto muito de cultura pop,  e as vezes me arisco em jogar on line. ah te indico assistir Brooklin 99 essa serie é a melhor!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#oquevcgostadefazer",
+      "dialog_node": "node_5_1570453504799",
+      "previous_sibling": "node_3_1570453675472"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If e Else são usados para tomadas de decisão. sendo que o ELSE completa o If."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#quando_usar_senao_e_entao",
+      "dialog_node": "node_4_1558960881413",
+      "previous_sibling": "node_3_1558960649134"
+    },
+    {
+      "type": "standard",
+      "title": "Funções_estrutura_repetição",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As estruturas de repetição também são conhecidas como laços (loops) e são utilizados para executar, repetidamente, uma instrução ou bloco de instrução enquanto determinada condição estiver sendo satisfeita."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Funções_estrutura_repetição",
+      "dialog_node": "node_3_1558960649134",
+      "previous_sibling": "node_3_1558959764165"
+    },
+    {
+      "type": "standard",
+      "title": "repeticoes_infinitas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Repetições infinitas é quando um programa em JAVA não tem fim, ou seja ele irá rodar infinitamente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#repeticoes_infinitas",
+      "dialog_node": "node_1_1558958575633",
+      "previous_sibling": "node_4_1558954790448"
+    },
+    {
+      "type": "standard",
+      "title": "O que é caso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É uma forma de reduzir a complexidade de vários if … else encadeados.\n\nÉ muito utilizado, principalmente para uso em estruturas de menu.\n\nO conteúdo de uma variável é comparado com um valor constante, e caso a comparação seja verdadeira, um determinado comando é executado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#o_que_e_caso",
+      "dialog_node": "node_3_1558959764165",
+      "previous_sibling": "node_2_1558959585131"
+    },
+    {
+      "type": "standard",
+      "title": "que dia é hoje",
+      "output": {
+        "generic": [
+          {
+            "title": "@sys-date",
+            "options": [],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#que_dia_hoje",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1570195779787",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, Como posso te ajudar?"
+              },
+              {
+                "text": "Olá, em que posso te ajudar hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo",
+      "previous_sibling": "node_5_1570453504799"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôôô"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#curintia",
+      "dialog_node": "node_6_1570454159178",
+      "previous_sibling": "node_6_1570454374490"
+    },
+    {
+      "type": "standard",
+      "title": "comprimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo ótimo, e com você? em que eu posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cumprimento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1570113585856",
+      "previous_sibling": "node_5_1570107845171"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disponha."
+              },
+              {
+                "text": "Não há de que."
+              },
+              {
+                "text": "Eu que agradeço."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Agradecimento",
+      "dialog_node": "node_3_1559041644236",
+      "previous_sibling": "node_2_1559041613347"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado por usar o 7BOT! Tchau!"
+              },
+              {
+                "text": "Agradecemos a visita, até logo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Despedidas",
+      "dialog_node": "node_2_1559041613347",
+      "previous_sibling": "node_1_1559041554756"
+    },
+    {
+      "type": "standard",
+      "title": "Saudacao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Bem-vindo ao 7BOT!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Saudacao",
+      "dialog_node": "node_1_1559041554756",
+      "previous_sibling": "node_1_1558961214099"
+    },
+    {
+      "type": "standard",
+      "title": "Sintaxe Caso",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "sintaxe do comando Switch case:\nswitch (variável)\n{\ncase constante1:\nInstruções;\nbreak;\n\ncase constante2:\nInstruções;\nbreak;\n\ndefault\nInstruções;\n}"
+              },
+              {
+                "text": "switch (variável ou valor)\n{\ncase valor1:\n      // código 1\nbreak;\ncase valor2:\n      // código 2\nbreak;\n}"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Sintaxe_case",
+      "dialog_node": "node_1_1558959102383",
+      "previous_sibling": "node_1_1558958575633"
+    },
+    {
+      "type": "standard",
+      "title": "O que é if ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A estrutura condicional if é um recurso que indica quais instruções o sistema deve processar de acordo com uma expressão booleana. Assim, o sistema testa se uma condição é verdadeira e então executa comandos de acordo com esse resultado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#O_que_e_se_senao",
+      "dialog_node": "node_4_1558954790448",
+      "previous_sibling": "node_9_1570113585856"
+    },
+    {
+      "type": "standard",
+      "title": "Não Intendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi sua pergunta\n"
+              },
+              {
+                "text": "Ainda não aprendi sobre esse assunto\n"
+              },
+              {
+                "text": "Não sei responder sobre esse assunto\n"
+              },
+              {
+                "text": "Não sei responder isso\n"
+              },
+              {
+                "text": "Esse assunto eu ainda não aprendi\n"
+              },
+              {
+                "text": "Desculpe não entendi\n"
+              },
+              {
+                "text": "Desculpe não sei responder isso\n"
+              },
+              {
+                "text": "Desculpe ainda não aprendi isso\n"
+              },
+              {
+                "text": "Ainda não sei responder isso\n"
+              },
+              {
+                "text": "Desculpe esse assunto ainda não aprendi\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1559041644236"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "por que o napoleão era chámado sempre pras féstas, por que ele éra bom na party."
+              },
+              {
+                "text": "Um caipira chega na casa de um amigo que está vendo têvê e pergunta, eai firme ele responde, não, futebór kkk"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#piada",
+      "dialog_node": "node_6_1570454374490",
+      "previous_sibling": "node_10_1570455464855"
+    },
+    {
+      "type": "standard",
+      "title": "que dia é hoje",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hoje é dia @sys-date"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@sys-date && #que_dia_hoje",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1570450055748",
+      "previous_sibling": "node_1_1570453214633"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sim, Você é um grande amigo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#amor",
+      "dialog_node": "node_10_1570456243877"
+    }
+  ],
+  "workspace_id": "28c60061-f65c-4a45-a94b-6267b15ae078",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}

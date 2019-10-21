@@ -1,0 +1,84 @@
+@font-face {
+    font-family: principal;
+    src: url("../fonts/principal.ttf")
+}
+body {
+    background: #f8f8f8;
+    overflow-x: hidden;
+}
+
+
+
+* {
+    font-family: principal;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: #858585;
+}
+.line {
+    border-bottom: 3px solid #293F76!important;
+}
+.structure {    
+    width: 1050px;
+    margin: 0px auto;
+}
+#header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#header-flex > div {
+    line-height: 90px;
+    user-select: none;
+}
+#header-flex > div > h1 {
+    font-size: 150%;
+}
+#header-flex > div > a {
+    box-sizing: border-box;
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 2px 0px;
+}
+#header-flex > div > a:hover {
+    color: #1a1a1a;
+}
+#header-infos-site {
+	width: 500px!important;
+}
+#header-infos-site > a {
+	display: inline-block;
+	float: left;
+    line-height: 0px;
+	margin-right: 50px;
+}
+
+#header-infos-site > a > img {
+	height: 70px;
+	padding: 5px 0px;
+	line-height: 90px;
+}
+
+#text-background {
+    background: #293F76;
+}
+#text-background > div > h1 {
+    text-align: center;
+    color: #f8f8f8;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 4;
+}
+
+#service {
+    padding: 30px 4px;
+    box-sizing: border-box;
+}
+#service > div {
+    box-sizing: border-box;
+    padding: 20px 5px;
+    box-shadow: 4px 5px 10px 1px rgba(0, 0, 0, .2);
+}

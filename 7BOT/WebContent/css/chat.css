@@ -1,0 +1,212 @@
+#container-chat {
+    width: 350px;
+    height: 50vh;
+    background: #f8f8f8;
+    position: fixed;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .2);
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#header-chat {
+    height: 10%;    
+    background: #293F76;
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#chat {
+    height: 80%;
+    box-sizing: border-box;
+    padding: 20px 10px 10px;
+    overflow-x: hidden;
+}
+.me > p, .bot > p {
+    margin: 0px;
+    padding: 8px 15px;
+    display: inline-block;
+    color: black;
+    font-weight: 900;
+}
+#chat > div > audio {
+	display: block;
+	margin: 0px auto;
+	width: 100px;
+}
+
+.me, .bot {
+    width: 80%;
+    margin: 5px 0px;
+    text-align: justify;
+	box-sizing: border-box;
+}
+
+
+.me{
+    float: right;
+}
+.me > p {
+    float: right;
+    background: rgba(255, 127, 38, .4);
+    border-radius: 10px 0px 10px 10px;
+}
+.me > audio {
+	border-radius: 15px;
+}
+.bot {
+    float: left;
+
+}
+.bot > audio {
+	border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(41, 63, 118, 0.2);
+}
+.bot > p {
+    background: rgba(41, 63, 118, 0.2);
+    border-radius: 0px 10px 10px 10px;
+}
+#chat > div > audio {
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: rgb(241, 243, 244);
+}
+#options {
+    height: 40px;
+    box-sizing: border-box;
+    background: #f1f1f1;
+    display: none;
+    justify-content: center;
+}
+#options > div {
+    display: flex;
+    justify-content: center;
+}
+#options > input {
+    font-size: 20px;
+    background: #f1f1f1;
+    flex-grow: 4;
+    padding: 0px 15px;
+    color: #858585;
+	box-sizing: border-box;
+}
+#options > div > button {
+    padding: 0px 10px;
+    background-color: none;
+}
+#options > input, #options > div > button {
+    border: none;
+    outline: none;
+}
+.btn {
+    border-radius: 50px;
+    cursor: pointer;
+    background: none;
+}
+.btn > img{
+    width: 25px;
+    user-select: none;
+    padding-top: 5px;
+}
+.btn:hover {
+    background: #cac3c3;
+    transition: .1s;
+}
+#pauseAudio, #stopAudio {
+    display: none;
+}
+ 
+#anna > img{
+    overflow: hidden;
+    border-radius: 100%;
+    position: absolute;
+    width: 25%;
+    top: -50px;
+    left: 10px;
+}
+#header-info {
+    height: 100%;
+    width: 75%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+#header-info > p{
+    margin: 0px;
+    color: #f8f8f8;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 9px 20px;
+}
+#header-info > div {
+    width: 12%;
+    height: 44%;
+    display: flex;
+    padding-bottom: 5%;
+    margin-right: 4%;
+    margin-top: 2%;
+    cursor: pointer;
+    border-radius: 100%;
+}
+#header-info > div > i {
+    border-bottom: 1px solid #f8f8f8;
+    width: 40%;
+    display: block;
+    margin: 0px auto;
+}
+#header-info > div:hover {
+    background: rgb(26, 45, 94);
+}
+
+#chat-ball {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    width: 80%;
+}
+#chat-ball > img {
+    border-radius: 100%;
+    width: 90px;
+    float: right;
+    box-shadow: 0px 0px 10px .5px rgba(88, 88, 88, 1);
+    cursor: pointer;
+}
+#chat-ball > p {
+    float: right;
+    text-align: right;
+    margin: 30px 15px 0px;
+    font-weight: 1000;
+    background: #293F76;
+    color: #f8f8f8;
+    border-radius: 10px 0px 10px 10px;
+    padding: 8px 15px;
+    box-shadow: 0px 0px 10px .5px rgba(88, 88, 88, .5);
+}
+
+.acessibilidade {
+	padding-top: 85px;
+}
+.acessibilidade > p {
+	text-align: center;
+	margin: 0px;
+	
+}
+.acessibilidade > button {
+	display: block;
+	margin: 15px auto;
+	padding: 9px 20px;
+	color: #f8f8f8!important;
+	outline: none;
+	cursor: pointer;
+}
+
+#audio {
+	background: rgb(41, 63, 118);
+}
+#text {
+	background: rgba(255, 127, 38, .8);
+}
+

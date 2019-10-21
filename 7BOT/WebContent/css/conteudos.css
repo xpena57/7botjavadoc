@@ -1,0 +1,38 @@
+
+#timeLine {
+    background-color: #293F76;
+    padding: 20px;
+}
+#timeLine > div > p{
+    font-weight: 100;
+    color: #f8f8f8;
+    font-size: 13px;
+}
+
+#choice {
+    text-align: center;
+    margin-top: 30px;
+}
+#choice > select {
+    border: 1px solid #858585;
+    font-size: 19px;
+    outline: none;
+    padding: 5px 10px;
+    width: 25%;
+}
+#choice > hr {
+    border-bottom: 1px solid #858585;
+    width: 70%;
+    margin: 15px auto 5px;
+}
+
+#container-conteudo {
+    padding: 10px 20px;
+}
+#container-conteudo > h1 {
+    text-align: center;
+    padding: 8px 0px;
+}
+
+
+

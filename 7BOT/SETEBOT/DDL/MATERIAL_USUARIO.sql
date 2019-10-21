@@ -1,0 +1,18 @@
+drop table SETEBOT_AlUNO_CONTEUDO;
+
+create sequence setb_alun_cont;
+
+create table SETEBOT_AlUNO_CONTEUDO(
+    ID_ALUNO_MATERIA number primary key,
+    DATA_HORA VARCHAR2(30),
+    ID_ALUNO number,
+    ID_CONTEUDO number,
+    FOREIGN KEY(ID_ALUNO) REFERENCES SETEBOT_ALUNO(ID_ALUNO),
+    FOREIGN KEY(ID_CONTEUDO) REFERENCES SETEBOT_CONTEUDO(ID_CONTEUDO)
+);
+select * from SETEBOT_ALUNO;
+select * from SETEBOT_CONTEUDO;
+
+insert into SETEBOT_AlUNO_CONTEUDO(ID_ALUNO_MATERIA, DATA_HORA, ID_ALUNO, id_conteudo) VALUES(setb_alun_cont.nextval, '15-05-2000 15:56:12', 7, 1);
+
+select * from SETEBOT_ALUNO_CONTEUDO;

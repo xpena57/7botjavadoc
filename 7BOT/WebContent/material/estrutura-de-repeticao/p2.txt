@@ -1,0 +1,26 @@
+<h1> Estrutura enquanto </h1>
+
+<p> A construção "enquanto" (também chamada "repetição pré-testada") é a mais difundida estrutura de repetição, e sua estrutura básica é a seguinte: </p>
+
+<pre>
+
+Enquanto (condição) Faça
+    (bloco de código)
+Fim Enquanto
+
+</pre>
+
+<p> Nesta estrutura, a condição é primeiramente verificada, e se for verdadeira o bloco é executado. No final de execução do bloco a condição é novamente testada. </p>
+
+<p> A construção "repita até" (também chamada "repetição pós-testada") é uma variação da construção anterior, e difere pois a verificação da condição é feita após uma execução do bloco. Sua estrutura básica é a seguinte: </p>
+
+<pre>
+
+Repita
+    (bloco de código)
+Ate (condição)
+
+</pre>
+
+<p> Nesta estrutura, o bloco de código é primeiramente executado, e então a condição é verificada, e se for verdadeira o bloco é executado novamente. </p>
+

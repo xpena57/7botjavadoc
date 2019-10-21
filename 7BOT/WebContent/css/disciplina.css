@@ -1,0 +1,74 @@
+#service {
+    padding: 30px 4px;
+    box-sizing: border-box;
+}
+
+#service > div {
+    width: 90%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 20px 80px;
+    box-shadow: 0px 0px 5px 1px rgba(133, 133, 133, .5);
+    margin-bottom: 30px;
+}
+#service > div:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px rgba(133, 133, 133, .6);
+}
+#service > div > h3 {
+    line-height: 2;
+    font-size: 14px;
+}
+#categorie {
+    padding: 25px 0px 15px 120px;
+    background: #ff7f26;
+}
+#frm-pesquisa > input,button {
+    padding: 5px 5px;
+}
+#frm-pesquisa > input {
+    width: 30%;
+}
+#frm-pesquisa button {
+    outline: none;
+    cursor: pointer;
+    background: none;
+    color: #f8f8f8;
+}
+
+.services > div{
+    box-sizing: border-box;
+    padding: 0px 5px;
+    width: 100%;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: none;
+    background: #f1f1f1; 
+}
+.services > div > a {
+    background: #858585;
+    font-weight: 1000;
+    line-height: 2.5;
+    padding: 3px 8px;   
+    font-size: 12px;
+    margin: 10px;
+    color: #f8f8f8;
+}
+.abrir {
+    display: flex!important;
+}
+
+#load {
+    display: none;
+    margin-top: 60px;
+    text-align: center;
+}
+#load > img{
+    width: 10%;
+}
+
+#pesquisa {
+    text-align: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,18 @@
+		<h1>INTRODUÇÃO</h1>
+	<p>Ao ler o capítulo anterior, podemos concluir que nossos algoritmos “fluem” bem, mas não conseguem “lidar” com problemas. Ora, a vida real é repleta deles, portanto, nossos algoritmos em algum momento precisarão lidar com isso.</p>
+
+	<p>Por exemplo, embora toda adição de números inteiros apresente uma solução (x = a + b, onde “a” e “b” são números conhecidos), isso não ocorre nas equações de primeiro ou de segundo grau. Nas equações de primeiro grau (ax + b = 0), notamos que o fator (a variável “a”) que multiplica nossa incógnita (a variável “x”) jamais poderá ser zero, pois não temos solução para divisões por zero.</p>
+ 	<p>O mesmo inconveniente ocorre na resolução de uma equação de segundo grau, pois como resolver algebricamente uma situação em que a raiz quadrada presente na fórmula de Bhaskara se torne negativa? </p>
+    
+       <p>Vamos analisar a Formula de Baskara  (ou ao menos a ele atribuída, vale a pena pesquisa a respeito):</p>
+
+	<img src="formula-de-bhaskara.jpg">
+
+	<p>Observe que se testarmos a fórmula com vários valores arbitrários, se “insistirmos” o suficiente no cálculo da raiz de D teremos a ocorrência de um erro! Isso ocorre, pois, obrigatoriamente, D tem que ser maior ou igual a zero. Caso contrário, simplesmente não temos solução para a fórmula de Bhaskara. </p>
+
+	<p>Se o algoritmo for criado sem levar isso em consideração, irá parar pela execução de um erro, no caso, uma divisão por zero. Neste caso, ao invés de calcularmos e apresentarmos uma solução, deveríamos indicar que não há solução, evitando assim a ocorrência do erro! Basta uma tomada de decisão bem pensada, para resolver essa inconveniente situação. </p>
+
+	<h2>Como tomar decisões? </h2>
+
+	<p> No problema descrito anteriormente, se pudermos identificar previamente que o número que terá sua raiz calculada é negativo, poderemos evitar essa situação. Em nossa vida, tomamos decisões o tempo todo. Até dizemos, quando existem muitas hipóteses a serem analisadas “e se isso?” ou “e se aquilo?”. Vamos nos deter nessa pequena, mas fundamental palavra quando se pensa em programação: 
+</p>

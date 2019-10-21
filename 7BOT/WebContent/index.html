@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>7BOT</title>
+</head>
+<link rel="stylesheet" href="css/_css-index.css">
+<body>
+    <div id="background">
+
+        <div id="formal-index">
+            <img src="images/logo.png" alt="logo 7bot">
+            <p>Bem vindo ao 7BOT</p>
+        </div>
+
+
+        <div id="side-right">
+
+            <div id="box-options">
+
+                <div id="box-options-button"> 
+                    <button class="btn-ativo" id="btn-logar">Logar</button>
+                    <button id="btn-cadastrar">Cadastrar</button>
+                </div>
+
+                <div id="box-options-login"> 
+
+                    <form class="frm-index" id="frm-logar">
+                        <p id="sucesso" class="sucesso"></p>
+                        <input type="hidden" name="tarefa" value="Logar">
+
+                        <label for="email-login">
+                            <p>Email</p>
+                            <input type="text" id="email-login" name="email">
+                        </label>
+                        <label for="senha-login">
+                            <p>Senha</p>
+                            <input type="password" id="senha-login" name="senha">
+                        </label>
+
+                        <p id="erro" class="erro"></p>
+
+                        <div class="frm-btn">
+                            <p class="btn-esqueci-senha" id="esqueci-senha-link">Esqueci a senha</p>
+                            <button class="btn-default" id="logar">Logar</button>
+                            <img src="images/eclipse_load.gif" id="load">
+                        </div>
+                        <div id="esqueci-senha">
+                            <form action="" >
+                                <hr>
+                                <p>Um email com sua senha será enviado para você</p>
+                                <input type="text" placeholder="Digite o email da sua conta!" name="email-esqueci-pass" id="email-esqueci-pass">
+                                <button class="btn-default" id="btn_esqueci_pass">Enviar</button>
+                                <p id="erro_esq" class="erro"></p>
+                            </form>
+                            
+                        </div>
+                    </form>
+
+                    <form id="frm-cadastrar" class="frm-desativado"> 
+                        <input type="hidden" name="tarefa" value="Cadastrar">
+
+                        <label for="nome-cad">
+                            <p>Nome</p>
+                            <input type="text" id="nome-cad" name="nome">
+                        </label>
+
+                        <label for="email-cad">
+                            <p>Email</p>
+                            <input type="email" id="email-cad" name="email">
+                        </label>
+
+                        <label for="senha-cad">
+                            <p>Senha</p>
+                            <input type="password" id="senha-cad" name="senha">
+                        </label>
+
+                        <p class="avisos">A senha deve ter mais que 8 digitos</p>
+                        <p id="erro-cad" class="erro"></p>
+                        <div class="frm-cad-btn">
+                            <button class="btn-default" id="cadastrar">Cadastrar</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>  
+
+        </div>
+
+    </div>
+</body>
+<script src="js/_js-index3.js"></script>
+</html>

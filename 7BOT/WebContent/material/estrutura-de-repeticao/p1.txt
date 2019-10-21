@@ -1,0 +1,19 @@
+<h1> Introdução </h1>
+
+<p> Até o final do capítulo anterior, notamos que nossos algoritmos podem tomar decisões e “decidir” quais caminhos se devem percorrer. Todavia, um dos grandes trunfos da automação é realizar tarefas repetitivas; é a função em que os computadores realizam com maior excelência, e não foi sequer vislumbrada. Esse será o tema deste capítulo, que nos permitirá construir estruturas capazes de fazer determinada coisa quantas vezes precisarmos. </p>
+
+<p> Noções gerais de estruturas de repetição </p>
+
+<p> Consideremos o seguinte problema: “Obter a soma dos ‘n’ primeiros números pares positivos. ” Se, por exemplo, n for igual a 6 então soma = 2+4+6+8+10+12, sendo o total 42. </p>
+
+<p> Como dito no início deste capítulo, toda vez que tivermos uma  repetição não temos condições de solucionar o problema usando apenas os recursos conhecidos até o momento, especialmente em um problema tão dinâmico quando o sugerido: o número de repetições não é fixo, varia de acordo com o valor informado pelo usuário; um programador não teria condições de resolver o problema sem uma estrutura de repetição.</p>
+
+<p> Existem, entretanto, várias estruturas ditas de repetição  que permitem que um ou mais instruções sejam executadas mais de uma vez. Esse tipo de estrutura também é conhecido por outros nomes como lacos, loops, aneis , entre outras maneiras de se referenciar a ela. </p>
+
+<p> A questão que fica pendente é saber como simular uma somatória, isto é, a repetição de um processo de somas consecutivas de um conjunto de números. Vamos deixar pendente, por ora, esse problema. </p>
+
+
+
+
+
+	

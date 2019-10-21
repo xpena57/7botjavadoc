@@ -1,0 +1,45 @@
+ <h1> Estrutura “Para” – sintaxe </h1>
+
+<p> Uma das estruturas de repetição mais importante é justamente a estrutura “Para” </p>
+
+<p> De um modo geral, ela “ordena” que para um determinado número de situações  um processo deverá ser repetido. Essa situação pode ser comparada a uma simples contagem. Imagine uma criança recebendo a ordem de seus pais para contar até 10 para um casal de amigos. </p>
+
+<p> Os orgulhosos pais ficam completamente realizados quando a criança consegue cumprir a “tarefa”, não sem arrancar um bocejo dos infelizes amigos. </p>
+
+<p> Mas como escrever isso numa linguagem algorítmica? Vamos à sua sintaxe: </p>
+
+<b> Estrutura Para - Sintaxe </b>
+
+<pre>
+
+para <variável> de <índice de início > até <índice do final > passo <passo>
+  <instrução >
+fim-para
+
+
+</pre>
+
+
+<p> Exemplo Contagem de 1 a 10 </p>
+
+<p> Solução: </p>
+
+<pre>
+
+algoritmo conta_10_para;
+variáveis
+    i : inteiro;
+fim-variáveis
+início
+    para i de 1 até 10 faça
+        imprima(i);
+    fim-para
+fim
+
+</pre>
+
+<p> No exemplo em questão temos uma variável “i” que faz a contagem. Por isso mesmo, chamamos a esse tipo de variável de variáveis de contagens ou, mais usualmente, de contadores </p>
+
+<p> A escolha da variável “i” não é arbitrária. Nós vamos perceber, ao longo do estudo, que as variáveis são tão importantes em nossos algoritmos, como também nos programas, que costumam ter letras ou palavras associadas as suas funções. Espera-se de uma variável “soma” que armazene uma soma, assim como das variáveis “a”, “b” e “c” que armazenem números arbitrariamente escolhidos pelo usuário. </p>
+
+<p> 

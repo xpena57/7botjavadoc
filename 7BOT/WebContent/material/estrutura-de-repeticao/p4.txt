@@ -1,0 +1,10 @@
+<p> a)  Elabore um algoritmo que solicite ao usuário “n” números inteiros e imprima o maior deles em tela. Assuma que os números digitados são diferentes entre si. </p>
+
+<p> b)  Elabore um algoritmo que solicite ao usuário “n” números inteiros e imprima o maior deles em tela caso haja um que seja maior que outro (há uma possibilidade dos três serem iguais!) </p>
+
+
+<p> c)  Elabore um algoritmo que solicite ao usuário “n” números inteiros e imprima a soma de todos, exceto o menor deles. Assumir que os números digitados serão diferentes entre si. </p>
+
+<p> d)  Elabore um algoritmo que solicite ao usuário “n” números inteiros, imprima a média desses números, exceto o menor deles. Assumir que os números digitados serão diferentes entre si. </p>
+
+

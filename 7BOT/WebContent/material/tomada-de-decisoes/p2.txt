@@ -1,0 +1,136 @@
+		<h1>A instrução SE</h1>
+
+	<p> Vamos continuar a pensar na questão de uma raiz hipoteticamente negativa. Em situações como essa, precisaremos verificar o valor armazenado na variável D antes de efetuarmos alguma operação, como o envio de uma resposta ou a realização de um cálculo.</p>
+	<p> Dependendo do valor de uma ou mais variáveis, o algoritmo pode tomar rumos distintos e, muitas vezes, tornar-se errado. Por exemplo, em uma equação de 2º grau, quando D é negativo não podemos extrair a raiz quadrada. Temos aqui então um interessantíssimo ponto de decisão, pois dependendo </p>
+	<p> D < 0: exibiremos a mensagem que não existem raízes reais para a equação </p>
+	<p>que como mostra a figura a seguir, nos permite abordar o problema em questão e solucioná-lo de uma forma bastante elegante: <p>
+
+	<img src="introducao.jpg">
+
+	<p> Para isso, temos a estrutura de decisão se/então[/senão] </p>
+
+	<p> Várias são as observações: </p>
+
+	<p> Note que da análise da expressão D < 0 é que se “decide pelo caminho a seguir”! </p>
+
+	<p> Quando a expressão analisada for verdadeira, segue-se pela linha do  ENTAO </p>
+
+	<p> Por outro lado, quando a situação analisada é falsa, adota-se a linha do SENAO </p>
+
+	<p> Observe, ainda, as barras de endentação presentes. A mais externa representa aquela que
+norteia o problema em questão. </p>
+
+	<p> Já as barras de endentação mais internas indicam alternativas. A existente entre as palavras
+então e senão representam as instruções que serão executadas quando o valor do D for
+negativo, ou seja, menor que zero. </p>
+
+	<p> De maneira análoga, quando a barra de endentação existente depois do senão, conterá o
+conjunto de instruções a serem executadas, caso a condição testada não seja verdadeira, ou
+seja, caso o valor do D seja positivo ou zero </p>
+
+	<p> As linguagens de programação, cada uma a seu modo, procuram representar essas situações. Em nosso material iremos, sempre que necessário, nos valer de exemplos nas mais diversas linguagens de programação, e sempre que possível comparando a solução que de cada ao problema que se deseja resolver. </p>
+
+	<h2>Sintaxe da instrução SE</h2>
+
+	<p> Toda e qualquer instrução tem uma sintaxe, ou seja, uma forma exata como deverá ser escrita. Vamos, por assim dizer, “definir” como se descreve as sintaxes, usando para isso a instrução “Se”. </p>
+
+	<pre>
+	
+
+	se <condicao> entao
+  		<instrucao> 
+	[ senao
+  		<instrucao> ]
+	fim-se
+
+	</pre>
+
+	<p> Vamos a uma série de observações: </p>
+
+	<p>  a)	Os símbolos [ ] (colchetes) indicam opcionalidade. Trata-se de uma parte do código que não é obrigatória, ficando a critério do programador usá-la ou não. </p>
+
+	<p>  b)	As expressões existentes entre os símbolos < > (que são chamadas popularmente de tags, devido ao seu grande uso em linguagens de hipertexto, como é o caso do HTML e suas derivadas) contêm expressões ou comandos a serem testados ou executados. </p>
+
+	<p> c)	As palavras “reservadas” estão em negrito e não poderão jamais ser usadas como variáveis, quer seja em nossa codificação (Português Estruturado) ou nas linguagens de programação. Assim, “se” jamais poderá ser uma “variável” em nossos programas, como “if” jamais poderá ser uma variável nas linguagens Java e Pascal, como pudemos notar nos exemplos escritos naquelas duas importantes linguagens de programação. </p>
+
+	<h2> Exemplos </h2>
+
+	<h3> Exemplo 1: Tomada de decisão simples (sem senão).</h3>
+
+	<p> Problema: Imprimir “x” se este for igual a 1.
+            Resolução: </p>
+
+	<pre>
+	
+	algoritmo se01;
+	
+	variáveis
+    		x : inteiro;
+	fim-variáveis
+	início
+    	x := leia();
+    	
+	se x = 1 então
+        	imprima(x);
+    	fim-se
+	fim
+
+	</pre>
+
+
+	<h3> Exemplo 2: Tomada de decisão com senão. </h3>
+
+	<p> Problema: Imprimir “x+1” se este for diferente de 2 ou imprima o dobro de “x”, quando esse for 2. </p>
+
+	<p> Resolução: </p>
+	
+	<pre>
+
+	algoritmo se02;
+	variáveis
+    		x : inteiro;
+	fim-variáveis
+	início
+    	x := leia();
+    	se x <> 2 então
+        	imprima(x + 1);
+    	senão
+        	imprima(x * 2);
+    	fim-se	
+	fim
+	
+	
+	</pre>
+
+	<h2> Exercícios </h2>
+
+	<b> a)	Dados dois números, por hipótese distintos entre si, imprima o maior deles.   </b>
+
+	<b> b)	Dados dois números, imprima o maior deles, se houver. </b>
+
+	<h1> Múltiplas possibilidades </h1>
+
+	<p>  Existem situações em que uma variável sozinha pode indicar múltiplas possibilidades de execução de um algoritmo. Nessas situações, essa variável funciona como um seletor de opções, semelhante a escolher um canal de TV ou uma estação de Rádio. </p>
+
+	<h2> Sintaxe da instrução caso </h2>
+
+	<pre>
+
+	escolha <variável>:
+		caso <valor 1> :
+    			<instrução 1>;
+    		fim-caso
+		caso <valor 2>:
+	    		<instrução 2>;
+		fim-caso
+		caso <valor n>:
+	    		<instrução n>;
+		fim-caso
+		outrocaso:
+	    		<instrução>;
+		fim-caso
+	fim-escolha
+
+	</pre>
+	
+<p>  É fácil observar que a estrutura lógica equivale e pode ser substituída por uma série de decisões do tipo “se então senão se...”, mas a complexidade ao menos de leitura causada pelos inúmeros aninhamentos, aumenta exponencialmente quando usamos essa estratégia. </p>
